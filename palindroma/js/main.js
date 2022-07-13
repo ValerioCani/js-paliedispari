@@ -5,6 +5,8 @@ alert (chekcPalindrome(parola));
 
 
 function chekcPalindrome(Word){
+    Word = Word.replaceAll(' ', '');
+    Word = Word.toLowerCase('');
     const myArray = Word.split("");
     console.log(myArray);
     
