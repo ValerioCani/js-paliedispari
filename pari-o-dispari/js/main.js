@@ -1,4 +1,4 @@
-const myNumber = prompt('inserisci un numero tra 1 e 5');
+const myNumber = prompt('inserisci un numero da 1 a 5');
 console.log(myNumber);
 const choice = prompt('digita pari o dispari').toUpperCase();
 //blocco aggressivo di controllo dei dati in ingresso
@@ -6,7 +6,7 @@ if(isNaN(myNumber)){
     alert('INSERISCI UN NUMERO IDIOTA!');
     
 }else if(myNumber<1 || myNumber>5){
-    alert('SAI LEGGERE? DEVI INSERIRE UN NUMERO TRA 1 E 5!');
+    alert('SAI LEGGERE? DEVI INSERIRE UN NUMERO DA 1 A 5!');
     
 }else if(choice!=='PARI' && choice!=='DISPARI'){
     alert('HAI SCRITTO MALE!');
